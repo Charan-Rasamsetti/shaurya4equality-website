@@ -1,0 +1,206 @@
+.gi-wrapper {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #1f2937;
+}
+
+/* HERO */
+.gi-hero {
+  min-height: 85vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.gi-hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #f9fafb;
+}
+
+.gi-hero h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.gi-hero p {
+  font-size: 1.1rem;
+  max-width: 720px;
+  line-height: 1.7;
+}
+
+.gi-hero-actions {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* BUTTONS */
+.gi-btn {
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.gi-btn.primary {
+  background: #f5b301;
+  color: #111;
+}
+
+.gi-btn.primary:hover {
+  background: #ddb14c;
+}
+
+.gi-btn.secondary {
+  border: 1.5px solid #e5e7eb;
+  color: #e5e7eb;
+}
+
+.gi-btn.secondary:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.gi-btn.large {
+  padding: 14px 36px;
+}
+
+/* CORE BELIEF */
+.gi-belief {
+  padding: 96px 24px;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.gi-belief h2 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.gi-belief-tags {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.gi-belief-tags span {
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  font-weight: 500;
+}
+
+/* FOCUS AREAS */
+.gi-focus {
+  padding: 46px 24px;
+}
+
+.gi-focus h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 56px;
+  color: white;
+}
+
+.gi-focus-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.gi-focus-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 32px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+.gi-focus-card:hover {
+  transform: translateY(-6px);
+}
+
+.gi-focus-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.gi-focus-card ul {
+  padding-left: 18px;
+  line-height: 1.7;
+}
+
+.gi-card-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+/* PHILOSOPHY */
+.gi-philosophy {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 96px 24px;
+  text-align: center;
+}
+
+.gi-philosophy h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.gi-philosophy-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.gi-philosophy-grid span {
+  padding: 16px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 12px;
+}
+
+.gi-philosophy-note {
+  margin-top: 40px;
+  max-width: 720px;
+  margin-inline: auto;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* FINAL CTA */
+.gi-final-cta {
+  padding: 96px 24px;
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+}
+
+.gi-final-cta h2 {
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+.gi-final-cta p {
+  max-width: 700px;
+  margin: 0 auto 32px;
+  font-size: 1.05rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .gi-hero h1 {
+    font-size: 2.4rem;
+  }
+}
